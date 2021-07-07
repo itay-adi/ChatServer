@@ -39,7 +39,7 @@ interpret customized protocols like chat between multiple users
 ## Interfaces:
 
 * [Connection.java](https://github.com/itay-adi/ChatServer/blob/main/Connection.java): An interface for the connection methods (init, stop and getId)
-* [Message.java](https://github.com/itay-adi/ChatServer/blob/main/Message.java): An interface for the Messages (getKet and getData)
+* [Message.java](https://github.com/itay-adi/ChatServer/blob/main/Message.java): An interface for the Messages (getKey and getData)
 * [Protocol.java](https://github.com/itay-adi/ChatServer/blob/main/Protocol.java): An interface for the protocol itself, which contains message handler
 * [ProtocolType.java](https://github.com/itay-adi/ChatServer/blob/main/ProtocolType.java): An interface which consists the customized protocols of the server
 * [SendableConnection.java](https://github.com/itay-adi/ChatServer/blob/main/SendableConnection.java): An interface which consists the send/receive methods
